@@ -10,7 +10,8 @@ Real-time scrum planning poker app powered by Socket.io
 ## Installation
 
 * `yarn`
-* `yarn start` (to start development server)
+* `yarn start:server` (to start socket.io server)
+* `yarn start` (to start app)
 
 ## Linting
 

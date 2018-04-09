@@ -14,6 +14,7 @@
   "homepage": "https://github.com/eddjoke/scrum-poker#readme",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot",
+    "start:server": "node server/app.js",
     "build": "webpack",
     "format": "prettier --write '**/*.*'",
     "lint": "run-p lint:*",
@@ -63,8 +64,11 @@
     "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3",
+    "http": "^0.0.0",
     "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react-dom": "^16.3.0",
+    "socket.io": "^2.1.0"
   }
 }
