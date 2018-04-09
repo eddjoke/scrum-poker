@@ -1,17 +1,17 @@
 {
-  "name": "react-project-starter",
+  "name": "scrum-poker",
   "version": "0.0.1",
-  "description": "React project starter with Webpack, SASS, ESLint and Prettier support",
+  "description": "Real-time scrum planning poker app powered by Socket.io",
   "author": "Edvinas Jurele",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddjoke/react-project-starter.git"
+    "url": "git+https://github.com/eddjoke/scrum-poker.git"
   },
   "bugs": {
-    "url": "https://github.com/eddjoke/react-project-starter/issues"
+    "url": "https://github.com/eddjoke/scrum-poker/issues"
   },
-  "homepage": "https://github.com/eddjoke/react-project-starter#readme",
+  "homepage": "https://github.com/eddjoke/scrum-poker#readme",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot",
     "build": "webpack",

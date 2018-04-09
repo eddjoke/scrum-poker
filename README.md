@@ -1,16 +1,6 @@
-# React project starter
+# Real-time scrum poker
 
-React project starter with integrated Webpack 4, SASS, ESLint, Stylint and Prettier support.
-
-#### Includes:
-
-* **React v16**
-* **Webpack 4**
-* **ES6+** support (**Babel** integration)
-* **SASS** support (with autoprefixer)
-* **ESlint** (based on Airbnb)
-* **Stylelint** support
-* **Prettier**
+Real-time scrum planning poker app powered by Socket.io
 
 ## Requirements
 
