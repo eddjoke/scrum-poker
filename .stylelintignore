@@ -1,0 +1,6 @@
+*.*
+!*.css
+!*.scss
+
+# npm files
+node_modules

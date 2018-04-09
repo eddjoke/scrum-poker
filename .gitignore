@@ -1,0 +1,12 @@
+# npm files
+node_modules
+package-lock.json
+*.log*
+
+# IDE
+.idea
+.vscode
+
+# project
+dist/main.css
+dist/main.js

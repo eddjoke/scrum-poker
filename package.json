@@ -1,0 +1,70 @@
+{
+  "name": "react-project-starter",
+  "version": "0.0.1",
+  "description": "React project starter with Webpack, SASS, ESLint and Prettier support",
+  "author": "Edvinas Jurele",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddjoke/react-project-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddjoke/react-project-starter/issues"
+  },
+  "homepage": "https://github.com/eddjoke/react-project-starter#readme",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot",
+    "build": "webpack",
+    "format": "prettier --write '**/*.*'",
+    "lint": "run-p lint:*",
+    "lint:css": "stylelint '**/*.*'",
+    "lint:js": "eslint . --color",
+    "purge": "rm -rf node_modules && yarn clean",
+    "clean": "rm -rf dist/main.css dist/main.js",
+    "serve": "babel-node server.js",
+    "prepush": "run-p lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-idx": "^2.2.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "husky": "^0.14.3",
+    "node-sass": "^4.8.3",
+    "npm-run-all": "^4.1.2",
+    "postcss-loader": "^2.1.3",
+    "prettier": "^1.11.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "stylelint": "^9.2.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.0.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
